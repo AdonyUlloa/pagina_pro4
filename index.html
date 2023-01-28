@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Programacion 4</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body style="background-color:#d14db0;">
+	<div class="converter-container">
+		<h1>Coversor Euro a Dolar</h1>
+		<form>
+			<label>Euros</label>
+			<input type="text" id="euros" />
+            <p></p>
+			<label>Dollars</label>
+			<input type="text" id="dollars" />
+            <p></p>
+			<input type="button" value="Convertir" onclick="convertCurrency()" />
+		</form>
+	</div>
+    <p></p>
+    <div class="converter-container2">
+		<h1>Centígrados a grados 
+            Fahrenheit</h1> 
+		<form>
+			<label>Celsius</label>
+			<input type="text" id="celsius" />
+            <p></p>
+			<label>Fahrenheit</label>
+			<input type="text" id="fahrenheit" />
+            <p></p>
+			<input type="button" value="Convertir" onclick="convertTemperature()" />
+		</form>
+	</div>
+    <p></p>
+    <div class="color-changer-container">
+		<h1>Cambiar color de fonde de una caja</h1> 
+		<input type="text" id="textbox" />
+		<input type="button" value="Random color" onclick="changeBackgroundColor()" />
+	</div>
+    <p></p>
+    <p></p>
+	<script src="escripts.js"></script>
+<p></p>
+<div class="box-form-container">
+    <h1>Pedido Caja</h1> 
+    <form>
+        <label>Nombre cliente</label>
+        <input type="text" id="name" />
+        <p></p>
+        <label>Tamaño</label>
+        <select id="size">
+            <option value="Pequeña">Pequeña</option>
+            <option value="Mediana">Mediana</option>
+            <option value="grande">Grande</option>
+        </select>
+        <p></p>
+        <label>Comentario</label>
+        <p></p>
+        <textarea id="comment"></textarea>
+        <p></p>
+        <input type="button" value="Enviar" onclick="submitForm()" />
+    </form>
+    <div id="form-output"></div>
+</div>
+</body>
+</html>

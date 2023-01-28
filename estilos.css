@@ -1,0 +1,35 @@
+.converter-container {
+	width: 300px;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid #ccc;
+	text-align: center;
+    background-color: aqua;
+}
+
+.converter-container2 {
+	width: 300px;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid #ccc;
+	text-align: center;
+    background-color: rgb(238, 107, 151);
+}
+
+.color-changer-container {
+	width: 300px;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid #ccc;
+	text-align: center;
+    background-color: rgb(10, 207, 233);
+}
+
+.box-form-container {
+	width: 300px;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid #ccc;
+	text-align: center;
+    background-color: rgb(177, 124, 226);
+}
